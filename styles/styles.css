@@ -36,7 +36,7 @@ h1 {
 .reset {
   padding: 15px 20px;
   color: #262323;
-  background: rgb(#ffffff);
+  background: rgb(#fff);
   border: none;
   font-size: 2em;
   letter-spacing: 0.1em;
@@ -68,7 +68,7 @@ h1 {
   transition: 0.25s;
 }
 
-.man.boxOpen {
+.man.box-open {
   transform: rotateY(0deg);
 }
 
@@ -85,7 +85,4 @@ h1 {
 .box-open::after,
 .box-match::after {
   transform: rotateY(180deg);
-}
-
-@media screen and (min-width: 720px) {
 }
