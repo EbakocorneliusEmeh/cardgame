@@ -36,20 +36,13 @@ h1 {
 .reset {
   padding: 15px 20px;
   color: #262323;
-  background: rgb(white);
+  background: rgb(#ffffff);
   border: none;
   font-size: 2em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 600;
-}
-
-.reset:focus {
-    
-  /* color: #ACABAB; */
-  /* background: rgb(8, 84, 177); */
-  /* background-color: white; */
 }
 
 .game {
@@ -71,7 +64,7 @@ h1 {
   align-items: center;
   transform: rotateY(0deg);
   font-size: 3em;
-  background: rgb(9, 102, 37);
+  background: #096625;
   transition: 0.25s;
 }
 
@@ -83,14 +76,14 @@ h1 {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgb(240, 238, 244);
+  background-color: #f0eef4;
   transition: 0.25s;
   transform: rotateY(0deg);
   backface-visibility: hidden;
 }
 
-.boxOpen::after,
-.boxMatch::after {
+.box-open::after,
+.box-match::after {
   transform: rotateY(180deg);
 }
 
