@@ -1,7 +1,7 @@
-const emojis = ["😊","😊","😂","😂","😎","😎","😁","😁","🤣","🤣","😃","😃","😆","😆","👀","👀"]
-let shuf_emojis = emojis.sort(() => (Math.random() > .5) ? 2 : -1)
+const emojis = ['😊','😊','😂','😂','😎','😎','😁','😁','🤣','🤣','😃','😃','😆','😆','👀','👀']
+const shuf_emojis = emojis.sort(() => (Math.random() > .5) ? 2 : -1)
 for (let i = 0; i < emojis.length; i++) {
-  let box = document.createElement('div')
+  const box = document.createElement('div')
   box.className = 'man'
   box.innerHTML = shuf_emojis[i]
 
