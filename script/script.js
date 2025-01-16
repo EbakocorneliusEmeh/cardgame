@@ -7,7 +7,7 @@ for (let i = 0; i < emojis.length; i++) {
 
   box.onclick = function () {
     this.classList.add('box-open')
-    setTimeout(function() {
+    setTimeout(function () {
       if (document.querySelectorAll('.box-open').length > 1) {
         if (document.querySelectorAll('.box-open')[0].innerHTML === document.querySelectorAll('.box-open')[1].innerHTML) {
           document.querySelectorAll('.box-open')[0].classList.add('box-match')
